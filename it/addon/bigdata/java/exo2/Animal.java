@@ -1,6 +1,6 @@
 package it.addon.bigdata.java.exo2;
 
-public class Animal {
+public abstract class Animal {
 
     String name;
     Integer age;

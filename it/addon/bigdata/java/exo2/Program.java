@@ -7,5 +7,8 @@ public class Program {
         Dog d = new Dog("Rex", 10);
         c.play("Boris");
         d.play("Boris");
+
+        // CAST
+        // Animal a = (Animal) d; // Dog= > Animal
     }
 }

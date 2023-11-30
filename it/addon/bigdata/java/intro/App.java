@@ -3,6 +3,7 @@ package it.addon.bigdata.java.intro;
 import it.addon.bigdata.java.intro.models.Personne;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 
 public class App {
 
@@ -62,6 +63,21 @@ public class App {
         // collections => "tableaux objets"
         ArrayList<Integer> numbersCollection = new ArrayList<>();
         numbersCollection.add(1);
+
+        // String[] <=> ArrayList<String> <=> ArrayList<T>
+        ArrayList<String> words = new ArrayList<>();
+        words.add("Hello");
+        words.add("World");
+        words.add("!");
+
+        words.indexOf("!");
+        words.contains("!");
+
+        // Set => élimine les doublons
+        HashSet<String> wordsSet = new HashSet<>();
+        wordsSet.add("World");
+        wordsSet.add("World");
+
     }
 
 }
